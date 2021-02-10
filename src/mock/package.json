@@ -1,0 +1,3 @@
+{
+    "scripts": {"mock":"json-server classData.js --port 3003"}
+}

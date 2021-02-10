@@ -1,0 +1,524 @@
+/* 全局 */
+ul,
+li {
+    list-style: none;
+
+    padding-inline-start: 0;
+}
+
+body {
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 导航栏 */
+.l-header {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/* logo区 */
+.fj-logo-box {
+    float: left;
+}
+
+/* 导航列表区 */
+.l-nav {
+    width: auto;
+    height: 58px;
+    float: left;
+    text-align: center;
+}
+
+.nav-list {
+    height: 100%;
+    text-align: center;
+    padding-inline-start: 20px;
+    margin-block-start: 19px;
+    margin-block-end: 0;
+}
+.fj-logo-img{
+    padding-top: 6px;
+}
+.nav-item {
+    display: inline;
+    padding: 0 24px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font: 14px/1.2 "Microsoft YAHEI";
+    font-size: 16px;
+    color: #333;
+    
+}
+
+/* 顶部右侧功能区 */
+.hd-right {
+    line-height: 57px;
+    height: 58px;
+    text-align: center;
+}
+
+.hd-new {
+    margin-left:25px;
+    float: left;
+    
+}
+
+.hd-search {
+    margin-left:50px;
+    float: left;
+}
+
+.hd-user {
+    margin-left: 20px;
+    
+    float: right;
+    color: black;
+}
+
+/* 主体区 */
+.l-body {
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* 侧边栏 */
+.l-operate {
+    height: 970px;
+    width: 240px;
+    float: left;
+    border-right: 1px solid #999999;
+}
+
+.l-operate-title {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.l-operate-title__text {
+    font-size: 20px;
+    color: #999;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.btn-opearate {
+    width: 30px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.l-operate-sidebar {
+    text-align: center;
+}
+
+.sidebar-list {
+    padding-inline-start: 0;
+    height: 940px;
+}
+
+.l-operate-sidebar li {
+    height: 60px;
+}
+
+.l-operate-sidebar li :hover{
+    border-left: 3px solid #3ba8f0;
+    background-color: #f4f5f5;
+    color: #3ba8f0;
+}
+
+
+.l-operate-sidebar li a {
+    padding-left: 20px;
+    max-width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    text-align: left;
+    line-height: 60px;
+    font-size: 17px;
+}
+.l-operate-sidebar li a:focus{
+    border-left: 3px solid #3ba8f0;
+    background-color: #f4f5f5;
+    color: #3ba8f0;
+}
+
+.icon {
+
+    padding-right: 20px;
+    text-align: center;
+}
+
+/* 内容区 */
+.l-content {
+    padding-left: 33px;
+    height: 970px;
+    width: calc(100% - 250px);
+    float: left;
+}
+
+.l-content-hd {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6e7e7;
+    display: inline-block;
+}
+
+.l-content-hd__text {
+    font-size: 17px;
+    color: #000;
+    padding-top: 10px;
+    float: left;
+}
+
+.l-content-btn {
+    float: right;
+    background: #3ca8f0;
+    color: #ffffff;
+    height: 35px;
+    width: 100px;
+    border-color: #e6e6e6;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* 班级列表 */
+.class-list__desc {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.class-list__group {
+    margin-top: 20px;
+    overflow: hidden;
+    padding-inline-start: 0;
+}
+
+.class-list__cell {
+    float: left;
+    position: relative;
+    width: 306px;
+    height: 155px;
+    border: 1px solid #ddd;
+    margin: 0 20px 20px 0;
+}
+
+.class-list__head {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 0;
+    height: 36px;
+}
+
+.class-list__icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 105px;
+    height: 106px;
+}
+
+.class-list__info {
+    position: absolute;
+    top: 25px;
+    left: 155px;
+}
+
+.class-list__row {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    line-height: 16px;
+    color: #333;
+}
+
+.class-list__tag {
+    color: #999;
+}
+
+.class-list__bold {
+    font-weight: 700;
+}
+
+.class-list__type {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    padding: 4px 10px;
+    background: #3ba8f0;
+    line-height: 1;
+    color: #fff;
+}
+
+/* 班级详情 */
+.l-content-title {
+    width: 100%;
+    padding: 15px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.l-content-title__text {
+    line-height: 36px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.l-content-search {
+    float: right;
+    line-height: 30px;
+}
+
+.l-content-search__input {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #3ba8f0;
+    border-right: none;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.l-content-search__button {
+    width: 50px;
+    height: 35px;
+    background-color: #3ba8f0;
+    border: 1px solid #3ba8f0;
+
+}
+
+.l-classdetail {
+    width: 100%;
+    height: 700px;
+    border: 1px solid #dddddd;
+}
+
+.l-classdetail-hd {
+    width: 100%;
+    height: 36px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dddddd;
+}
+
+.l-classdetail-hd__ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: inline-block;
+}
+
+.l-classdetail-hd__li {
+    display: inline-block;
+}
+
+.l-classdetail-hd__tab {
+    width: 180px;
+    height: 36px;
+    background-color: #f5f5f5;
+    border: none;
+    color: #666666;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.l-classdetail-hd__tab:active{
+    background-color: #ffffff;
+    color: #3ca8f0;
+    outline: none;
+    
+}
+
+.l-classdetail-hd__tab:focus{
+    background-color: #ffffff;
+    color: #3ca8f0;
+    outline: none;
+}
+.l-classdetail-hd__tab:hover{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.l-classdetail-cardlist {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.PeopleCard-List {
+    display: inline-block;
+    margin: 20px 10px;
+    padding:1px;
+}
+
+.PeopleCard {
+    width: 137px;
+    height: 150px;
+    border: 1px solid #dddddd;
+}
+
+.CardMid {
+    height: 114px;
+    display: inline-block;
+}
+
+.CardMid-span {
+    position: relative;
+    right: 0px;
+    bottom: 22px;
+    float: right;
+    font-size: 12px;
+    padding: 4px 8px;
+    background: #f99d43;
+    line-height: 1;
+    color: #fff;
+}
+
+.CardBottom {
+    text-align: center;
+    width: 135px;
+    height: 36px;
+    display: block;
+}
+
+.CardName {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* 创建班级 */
+.promptinfo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.l-createclass-row {
+    margin: 10px;
+}
+
+.l-createclass-label {
+    display: inline-block;
+    height: 36px;
+    width: 120px;
+    text-align: end;
+}
+
+.l-createclass-inputtext {
+    width: 400px;
+    height: 36px;
+    margin-left: 30px;
+    border: 1px solid #dddddd;
+    padding-left: 10px;
+}
+
+.l-createclass-select {
+    width: 412px;
+    height: 36px;
+    margin-left: 30px;
+    padding: 1px 0;
+    border: 1px solid #dddddd;
+    padding-left: 10px;
+    color: #666666;
+}
+
+.radio_type {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    position: relative;
+    outline: none;
+    padding-top: 10px;
+    margin:0 0 0 30px;
+}
+
+.radio_type:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 1px solid #dddddd;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.radio_type:checked:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 1px solid #3ba8f0;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    outline: none;
+}
+
+.radio_type:checked:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    background: #3ba8f0;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 14px;
+    left:3.5px;
+    
+    outline: none;
+}
+
+.radio_type:checked+label {
+    color: #3ba8f0;
+    outline: none;
+}
+
+.l-createclass-submit{
+    background: #3ba8f0;
+    color: #ffffff;
+    height: 35px;
+    width: 100px;
+    border-color: #e6e6e6;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-left: 160px;
+    font-size: 16px;
+}
+
+.ant-col-3 {
+    flex: 0 0 12.5%;
+    max-width: 11.3%;
+}
+.ant-form-item-label > label::after{
+    content: "";
+}
+.antd-button{
+    width: 100px;
+    margin-left: 34px;
+}
